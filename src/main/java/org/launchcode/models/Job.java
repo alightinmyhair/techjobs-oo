@@ -18,7 +18,7 @@ public class Job {
         id = nextId;
         nextId++;
     }
-
+    //pretty sure this is my default constructor
     public Job(String aName, Employer aEmployer, Location aLocation,
                PositionType aPositionType, CoreCompetency aSkill) {
 

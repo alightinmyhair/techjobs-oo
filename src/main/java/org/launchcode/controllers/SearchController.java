@@ -20,6 +20,7 @@ public class SearchController {
 
     private JobData jobData = JobData.getInstance();
 
+    //there should be some model binding going on - REVIEW!
     @RequestMapping(value = "")
     public String search(Model model) {
         model.addAttribute(new SearchForm());
